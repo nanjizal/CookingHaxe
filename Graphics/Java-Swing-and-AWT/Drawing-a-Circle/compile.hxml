@@ -1,0 +1,8 @@
+-java mainCircle
+-main MainCircle
+# after Haxe has compiled into Java lets run the code
+--next
+# move to the correct folder
+-cmd cd mainCircle
+# run our application
+-cmd java -jar MainCircle.jar
