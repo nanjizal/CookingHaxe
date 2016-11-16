@@ -22,6 +22,6 @@ class MainCircle{
         svgCircle.cy = 200;
         svgCircle.r = 50;
         svgCircle.setFillAndAlpha( 0xff0000, 1 );
-        svgRoot.add( svgCircle );
+        svgRoot.appendChild( svgCircle );
     }
 }
